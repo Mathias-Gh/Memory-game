@@ -1,0 +1,40 @@
+
+footer article img{
+    background-color: #EC9123;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: #C5BFC1;
+}
+footer article{
+    text-align: left;
+    margin: 5rem 6rem;
+}
+
+footer .InformationRight{
+    text-align: right;
+    
+}
+footer article p:last-of-type{
+    margin: 7rem 0 0 0;
+}
+footer ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+footer li::before {
+    content: "\25A0";
+    margin-right: 10px;
+    color: transparent;
+    background-color: orange;
+    font-size: 4px;
+    padding: 0 1px;
+}
+footer span{
+    color: #EC9123;
+    font-weight: bold;
+}
